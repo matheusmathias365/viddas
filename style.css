@@ -97,8 +97,14 @@ footer a {
     text-decoration: none;
 }
 
-footer a:hover {
-    text-decoration: underline;
+footer a.admin-link {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a.admin-link:hover {
+    color: #3D2516;
 }
 
 .rating-group {
@@ -315,5 +321,29 @@ main.admin-panel {
     }
     .admin-header, .admin-nav, .print-button {
         display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    .admin-header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .admin-header img {
+        margin-bottom: 15px;
+    }
+
+    .admin-nav a {
+        margin: 0 10px;
+    }
+
+    .rating-option label {
+        width: 35px;
+        height: 35px;
     }
 }
