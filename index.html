@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF--8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação - Clínica Vidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="https://clinicaviddas.com.br/wp-content/uploads/2024/05/logo-oficial-1024x236.png" alt="Logo Clínica Vidas" width="300">
+    </header>
+    <main>
+        <h1>Pesquisa de Satisfação</h1>
+        <p>Sua opinião é muito importante para nós! Por favor, dedique um momento para avaliar sua experiência na Clínica Vidas.</p>
+        <form id="survey-form">
+            <div class="form-group">
+    <label>Como você avalia a facilidade de agendar sua consulta?</label>
+    <div class="rating-group" id="scheduling">
+        <div class="rating-option">
+            <input type="radio" id="scheduling-1" name="scheduling" value="1" required>
+            <label for="scheduling-1">1</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="scheduling-2" name="scheduling" value="2">
+            <label for="scheduling-2">2</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="scheduling-3" name="scheduling" value="3">
+            <label for="scheduling-3">3</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="scheduling-4" name="scheduling" value="4">
+            <label for="scheduling-4">4</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="scheduling-5" name="scheduling" value="5">
+            <label for="scheduling-5">5</label>
+        </div>
+    </div>
+    <div class="rating-labels">
+        <span>Muito Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+    </div>
+</div>
+<div class="form-group">
+    <label>Como você avalia o tempo de espera na clínica?</label>
+    <div class="rating-group" id="waiting-time">
+        <div class="rating-option">
+            <input type="radio" id="waiting-time-1" name="waiting-time" value="1" required>
+            <label for="waiting-time-1">1</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="waiting-time-2" name="waiting-time" value="2">
+            <label for="waiting-time-2">2</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="waiting-time-3" name="waiting-time" value="3">
+            <label for="waiting-time-3">3</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="waiting-time-4" name="waiting-time" value="4">
+            <label for="waiting-time-4">4</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="waiting-time-5" name="waiting-time" value="5">
+            <label for="waiting-time-5">5</label>
+        </div>
+    </div>
+    <div class="rating-labels">
+        <span>Muito Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+    </div>
+</div>
+<div class="form-group">
+    <label>Como você avalia a limpeza e organização da clínica?</label>
+    <div class="rating-group" id="cleanliness">
+        <div class="rating-option">
+            <input type="radio" id="cleanliness-1" name="cleanliness" value="1" required>
+            <label for="cleanliness-1">1</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="cleanliness-2" name="cleanliness" value="2">
+            <label for="cleanliness-2">2</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="cleanliness-3" name="cleanliness" value="3">
+            <label for="cleanliness-3">3</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="cleanliness-4" name="cleanliness" value="4">
+            <label for="cleanliness-4">4</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="cleanliness-5" name="cleanliness" value="5">
+            <label for="cleanliness-5">5</label>
+        </div>
+    </div>
+    <div class="rating-labels">
+        <span>Muito Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+    </div>
+</div>
+<div class="form-group">
+    <label>Como você avalia a qualidade do atendimento da equipe?</label>
+    <div class="rating-group" id="care-quality">
+        <div class="rating-option">
+            <input type="radio" id="care-quality-1" name="care-quality" value="1" required>
+            <label for="care-quality-1">1</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="care-quality-2" name="care-quality" value="2">
+            <label for="care-quality-2">2</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="care-quality-3" name="care-quality" value="3">
+            <label for="care-quality-3">3</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="care-quality-4" name="care-quality" value="4">
+            <label for="care-quality-4">4</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="care-quality-5" name="care-quality" value="5">
+            <label for="care-quality-5">5</label>
+        </div>
+    </div>
+    <div class="rating-labels">
+        <span>Muito Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+    </div>
+</div>
+<div class="form-group">
+    <label>Qual sua satisfação geral com a Clínica Vidas?</label>
+    <div class="rating-group" id="overall-satisfaction">
+        <div class="rating-option">
+            <input type="radio" id="overall-satisfaction-1" name="overall-satisfaction" value="1" required>
+            <label for="overall-satisfaction-1">1</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="overall-satisfaction-2" name="overall-satisfaction" value="2">
+            <label for="overall-satisfaction-2">2</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="overall-satisfaction-3" name="overall-satisfaction" value="3">
+            <label for="overall-satisfaction-3">3</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="overall-satisfaction-4" name="overall-satisfaction" value="4">
+            <label for="overall-satisfaction-4">4</label>
+        </div>
+        <div class="rating-option">
+            <input type="radio" id="overall-satisfaction-5" name="overall-satisfaction" value="5">
+            <label for="overall-satisfaction-5">5</label>
+        </div>
+    </div>
+    <div class="rating-labels">
+        <span>Muito Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+    </div>
+</div>
+            <div class="form-group">
+                <label for="suggestions">Deixe seus comentários e sugestões (opcional):</label>
+                <textarea id="suggestions" name="suggestions" rows="5"></textarea>
+            </div>
+            <button type="submit">Enviar Avaliação</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+    </footer>
+</body>
+</html>

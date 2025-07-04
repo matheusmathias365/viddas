@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo - Clínica Vidas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="admin-page">
+    <header class="admin-header">
+        <img src="https://clinicaviddas.com.br/wp-content/uploads/2024/05/logo-oficial-1024x236.png" alt="Logo Clínica Vidas" width="200">
+        <nav class="admin-nav">
+            <a href="#" id="show-dashboard" class="active">Dashboard</a>
+            <a href="#" id="show-responses">Respostas Individuais</a>
+        </nav>
+    </header>
+    <main class="admin-panel">
+        <div id="dashboard-view">
+    <div id="dashboard"></div>
+</div>
+        <div id="responses-view" style="display: none;">
+            <div id="report-container"></div>
+        </div>
+    </main>
+    <button onclick="window.print()" class="print-button">&#128424;</button>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="report.js"></script>
+</body>
+</html>
